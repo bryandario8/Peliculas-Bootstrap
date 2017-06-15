@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) and (max-width: 990px){
+	h1{
+		text-align: center;
+		font-size: 2em!important;
+		margin: 1.5%;
+	}
+
+	h2{
+		font-size: 1.4em!important;
+		text-align: center!important;
+		margin: 1%!important;
+		width: 98%;
+	}
+	b{
+		display: none!important;
+	}
+	h2 + div{
+		font-size: 0.7em!important;
+	}
+	b, [id*="texto-"], #fig{
+		display: none!important;
+	}
+	/*
+	#caja{
+		width: 45%!important;
+		display: inline-block;
+		vertical-align: top;
+		margin: 2%!important;
+	}*/
+
+	.video, [class*="reparto-"]{
+		display: block!important;
+		width: 100%!important;
+		margin: 0!important;
+	}
+
+	.video{
+		position: relative;
+		top: -25px;
+		vertical-align: top;
+	}
+
+	[class*="reparto-"]{
+		position: relative;
+		bottom: -315px;
+	}
+
+	h4, h4 + div, [class*="reparto-"] div ul, ul li{
+		display: inline!important;
+	}
+
+	li::after{
+		content: ", ";
+	}
+	#rep-final::after{
+		content: "."!important;
+	}
+
+}
